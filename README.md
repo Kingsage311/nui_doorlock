@@ -1,12 +1,13 @@
-# [nui_doorlock](https://github.com/thelindat/nui_doorlock)
-
-A fork that is made to function with [QBCore](https://github.com/qbcore-framework/qb-core).
-
-<hr>
-<p align="center"><img src='https://user-images.githubusercontent.com/65407488/114383355-cbd26c00-9bd0-11eb-9079-8c341e6824b1.png'></img></p>
+# <a href='https://forum.cfx.re/t/esx-nui-doorlock-improved-performance-supports-sliding-doors/2068259'>nui_doorlock</a>
+A fork of esx_doorlock, featuring improved performance and improved functionality.
+<p align="center"><i>Resource folder must be <b>nui_doorlock</b></i><br><br>
+<img src='https://i.imgur.com/F7fzgYN.png'></img></p>
 <hr>
 
 <h3 align='center'>For more support or to see more of my resources you can join my <a href='https://discord.gg/hmcmv3P7YW'>discord</a></h3>
+<p align='center'>
+<a href="https://www.buymeacoffee.com/thelindat" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</p>
 
 * Easily add and configure new doors! <a href='https://streamable.com/e290wk'>Example video</a>  
 Use the `/newdoor` command to automatically create a new entry on the DoorList.  
@@ -30,7 +31,7 @@ The state of doors is only checked while in range, and the number of checks per 
 States.json will auto-generate if the file does not exist.  
 
 * Config for both Community MRPD and gabz_MRPD  
-Just choose which config file to use and delete the one you are not using.
+Just choose which config file to use and rename if using gabz.
 
 * Set door access permissions  
 Set multiple jobs to be authorised to use a door, with the minimum required grade `authorizedJobs = {['police']=0, ['offpolice']=0}`  
