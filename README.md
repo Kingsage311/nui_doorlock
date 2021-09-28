@@ -1,13 +1,11 @@
 # <a href='https://forum.cfx.re/t/esx-nui-doorlock-improved-performance-supports-sliding-doors/2068259'>nui_doorlock</a>
-A fork of esx_doorlock, featuring improved performance and improved functionality.
+A fork of esx_doorlock, featuring improved performance and improved functionality. Converted t QBCore not by me 
 <p align="center"><i>Resource folder must be <b>nui_doorlock</b></i><br><br>
 <img src='https://i.imgur.com/F7fzgYN.png'></img></p>
 <hr>
 
 <h3 align='center'>For more support or to see more of my resources you can join my <a href='https://discord.gg/aCFPpcKEGk'>discord</a></h3>
 <p align='center'>
-<a href="https://www.buymeacoffee.com/thelindat" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-</p>
 
 * Easily add and configure new doors! <a href='https://streamable.com/e290wk'>Example video</a>  
 Use the `/newdoor` command to automatically create a new entry on the DoorList.  
