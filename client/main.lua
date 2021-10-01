@@ -1,14 +1,9 @@
-QBCore = nil
+QBCore = exports['qb-core']:GetCoreObject()
 local closestDoor, closestV, closestDistance, playerPed, playerCoords, doorCount, retrievedData
 local isDead, isCuffed = false, false
 local playerNotActive = true
 
 Citizen.CreateThread(function()
-	while QBCore == nil do
-		TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
-		Citizen.Wait(0)
-	end
-
 	while QBCore.Functions.GetPlayerData() == nil do
 		Citizen.Wait(10)
 	end
