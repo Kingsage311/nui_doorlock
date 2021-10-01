@@ -38,8 +38,6 @@ AddEventHandler('onResourceStop', function(resourceName)
 	end
 end)
 
-TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
-
 RegisterServerEvent('nui_doorlock:updateState')
 AddEventHandler('nui_doorlock:updateState', function(doorID, locked, src, usedLockpick)
 	local playerId = source
